@@ -8,7 +8,7 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <link rel="stylesheet" href="Main/style.css">
   <title>Weather Dashboard</title>
 </head>
 
@@ -16,28 +16,72 @@
   <header class="container-fluid text-center text-white bg-dark p-2">
     <h1>Weather Dashboard</h1>
   </header>
-
-  <div class="container-fluid">
-    <div class="row">
-      <aside class="col-lg-3 bg-light">
-        <h5 class="mt-1">Search for a City:</h5>
-        <div class="form-inline form-group">
-          <input class="form-control" name="city-value" type="text" id="search-value" />
-          <button class="btn btn-primary" id="search-button"> <i class="fa fa-search"></i> </button>
+  <main class="container-fluid">
+    <div class="row mb-4">
+      <aside class="col-md-2 bg-light">
+         <h5 class="mt-1">Search for a City:</h5>
+         <div class="form-inline form-group">
+          <input class="form-control" name="city-value" type="text" id="search-value" placeholder="Name of City" />
+          <button class="btn btn-primary" id="search-button"> <i class="fa fa-search"></i></button>
         </div>
-
-        <ul class="list-group history">
-          <li></li>
-        </ul>
+        <div class="list-group">
+          <button type="button" class="list-group-item list-group-item-action active">Local Storage[0]</button>
+          <button type="button" class="list-group-item list-group-item-action">Local Storage[1]</button>
+          <button type="button" class="list-group-item list-group-item-action">Local Storage[2]</button>
+          <button type="button" class="list-group-item list-group-item-action">Local Storage[3]</button>
+          <button type="button" class="list-group-item list-group-item-action">Local Storage[4]</button>
+          <button type="button" class="list-group-item list-group-item-action">Local Storage[5]</button>
+        </div>
       </aside>
-
-      <div class="col-lg-9">
-        <div id="today" class="mt-3"></div>
-        <div id="forecast" class="mt-3"></div>
-      </div>
+        <section class="col-md-8 padding">
+          <div class="card bg-light mb-3">
+            <div class="card-header"><h4>City Name</h4></div>
+            <div class="card-body">
+            <h5 class="card-title">Time</h5>
+            <ul class="list-group list-group-flush col-md-6">
+              <li class="list-group-item">Temperature:</li>
+              <li class="list-group-item">Humidity:</li>
+              <li class="list-group-item">Wind Speed:</li>
+              <li class="list-group-item">UV Index:</li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </div>
-  </div>
-
+    <h4 class="margin-more">5-Day Forecast:</h4>
+    <section class="row">
+      <div class="col-md bg-primary height-width-border margin-most">
+        <h5 class="text-white tex-ali">Date</h5>
+        <img src="#" placeholder="weather icon">
+        <p class="text-white temperature">Temp:</p>
+        <p class="text-white hudmidity">Humidity:</p>
+      </div>
+      <div class="col-md bg-primary height-width-border margin">
+        <h5 class="text-white tex-ali">Date</h5>
+        <img src="#" placeholder="weather icon">
+        <p class="text-white temperature">Temp:</p>
+        <p class="text-white hudmidity">Humidity:</p>
+      </div>
+      <div class="col-md bg-primary height-width-border margin">
+        <h5 class="text-white tex-ali">Date</h5>
+        <img src="#" placeholder="weather icon">
+        <p class="text-white temperature">Temp:</p>
+        <p class="text-white hudmidity">Humidity:</p>
+      </div>
+      <div class="col-md bg-primary height-width-border margin">
+        <h5 class="text-white tex-ali">Date</h5>
+        <img src="#" placeholder="weather icon">
+        <p class="text-white temperature">Temp:</p>
+        <p class="text-white hudmidity">Humidity:</p>
+      </div>
+      <div class="col-md bg-primary height-width-border margin">
+        <h5 class="text-white tex-ali">Date</h5>
+        <img src="#" placeholder="weather icon">
+        <p class="text-white temperature">Temp:</p>
+        <p class="text-white hudmidity">Humidity:</p>
+      </div>
+    </section>
+  </main>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="Main/script.js"></script>
 </body>

@@ -1,0 +1,35 @@
+header {
+    margin-bottom: 6rem;
+}
+.see {
+    border: .5rem solid red;
+}
+.height-width-border {
+    height: 15em;
+    max-width: 10em;
+    border: .3em solid rgb(195, 195, 195);
+    border-radius: 25px;
+}
+.padding {
+    padding-top: 2em;
+}
+.margin {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.margin-most {
+    margin-left: 21%;
+    margin-right: 2%;
+}
+.margin-more {
+    margin-left: 18%;
+    margin-right: 2%;
+}
+.tex-ali {
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
