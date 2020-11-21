@@ -34,15 +34,16 @@
         </div>
       </aside>
         <section class="col-md-8 padding">
-          <div class="card bg-light mb-3">
+          <div class="card mb-3 relative">
             <div class="card-header"><h4>City Name</h4></div>
             <div class="card-body">
-            <h5 class="card-title">Time</h5>
+            <h5 id="today" class="card-title">Time</h5>
+            <div class="absolute" id="weather-icon"></div>
             <ul class="list-group list-group-flush col-md-6">
-              <li class="list-group-item">Temperature:</li>
-              <li class="list-group-item">Humidity:</li>
-              <li class="list-group-item">Wind Speed:</li>
-              <li class="list-group-item">UV Index:</li>
+              <li class="list-group-item main-temp">Temperature: </li>
+              <li class="list-group-item main-humidity">Humidity: </li>
+              <li class="list-group-item main-windspeed">Wind Speed: </li>
+              <li class="list-group-item main-uvindex" id="uv-access">UV Index: </li>
             </ul>
           </div>
         </div>
@@ -51,34 +52,34 @@
     <h4 class="margin-more">5-Day Forecast:</h4>
     <section class="row">
       <div class="col-md bg-primary height-width-border margin-most">
-        <h5 class="text-white tex-ali">Date</h5>
-        <img src="#" placeholder="weather icon">
-        <p class="text-white temperature">Temp:</p>
-        <p class="text-white hudmidity">Humidity:</p>
+        <h5 class="text-white tex-ali" id="date1">Date</h5>
+        <div id="img1"></div>
+        <p class="text-white forcast-temp1">Temp:</p>
+        <p class="text-white forcast-hudmid1">Humidity:</p>
       </div>
       <div class="col-md bg-primary height-width-border margin">
-        <h5 class="text-white tex-ali">Date</h5>
-        <img src="#" placeholder="weather icon">
-        <p class="text-white temperature">Temp:</p>
-        <p class="text-white hudmidity">Humidity:</p>
+        <h5 class="text-white tex-ali" id="date2">Date</h5>
+        <div id="img2"></div>
+        <p class="text-white forcast-temp2">Temp:</p>
+        <p class="text-white forcast-hudmid2">Humidity:</p>
       </div>
       <div class="col-md bg-primary height-width-border margin">
-        <h5 class="text-white tex-ali">Date</h5>
-        <img src="#" placeholder="weather icon">
-        <p class="text-white temperature">Temp:</p>
-        <p class="text-white hudmidity">Humidity:</p>
+        <h5 class="text-white tex-ali" id="date3">Date</h5>
+        <div id="img3"></div>
+        <p class="text-white forcast-temp3">Temp:</p>
+        <p class="text-white forcast-hudmid3">Humidity:</p>
       </div>
       <div class="col-md bg-primary height-width-border margin">
-        <h5 class="text-white tex-ali">Date</h5>
-        <img src="#" placeholder="weather icon">
-        <p class="text-white temperature">Temp:</p>
-        <p class="text-white hudmidity">Humidity:</p>
+        <h5 class="text-white tex-ali" id="date4">Date</h5>
+        <div id="img4"></div>
+        <p class="text-white forcast-temp4">Temp:</p>
+        <p class="text-white forcast-hudmid4">Humidity:</p>
       </div>
       <div class="col-md bg-primary height-width-border margin">
-        <h5 class="text-white tex-ali">Date</h5>
-        <img src="#" placeholder="weather icon">
-        <p class="text-white temperature">Temp:</p>
-        <p class="text-white hudmidity">Humidity:</p>
+        <h5 class="text-white tex-ali" id="date5">Date</h5>
+        <div id="img5"></div>
+        <p class="text-white forcast-temp5">Temp:</p>
+        <p class="text-white forcast-hudmid5">Humidity:</p>
       </div>
     </section>
   </main>

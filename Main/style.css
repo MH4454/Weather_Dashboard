@@ -1,9 +1,7 @@
 header {
     margin-bottom: 6rem;
 }
-.see {
-    border: .5rem solid red;
-}
+
 .height-width-border {
     height: 15em;
     max-width: 10em;
@@ -32,4 +30,14 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.absolute {
+    position: absolute;
+    right: 16em;
+    top: 8em;
+    transform: scale(3);
+}
+.relative {
+    position: relative;
 }
