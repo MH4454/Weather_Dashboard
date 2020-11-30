@@ -41,3 +41,10 @@ img {
 .relative {
     position: relative;
 }
+.jfc {
+    display: flex;
+    flex-direction: row;
+}
+#weather {
+    margin-left: 1.5em;
+}
