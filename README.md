@@ -2,7 +2,7 @@
 
 ## General info
 
-I developed a weather dashboard that shows the current weather, UV index, and forecast for the city based on the user input. A drop-down of previously searched cities is available, so the user would be able to re-search their favorite cities.
+I developed a weather dashboard that shows the current weather, UV index, and forecast for the city based on the user input. A drop-down of previously searched cities is available, so the user would be able to re-search their favorite cities. Deployed Link: https://mh4454.github.io/Weather_Dashboard/
 
 #### Demo
 
