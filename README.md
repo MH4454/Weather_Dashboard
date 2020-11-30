@@ -6,7 +6,7 @@ I developed a weather dashboard that shows the current weather, UV index, and fo
 
 #### Demo
 
-
+![Example screenshot](./Assets/Weather_Dashboard_Demo.gif)
 
 #### Technologies used
 
